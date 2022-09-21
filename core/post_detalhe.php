@@ -20,7 +20,7 @@
                 where usuario.id = post.usuario_id) as nome'
         ],
         [
-            ['id','=',$post]
+            ['id', '=', $post]
         ]
     );
     $post = $posts[0];
@@ -65,7 +65,7 @@
         <div class="row">
             <div class="col-md-12">
                 <?php
-                    include 'includes/rodape.php'
+                    include 'includes/rodape.php';
                 ?>
             </div>
         </div>
